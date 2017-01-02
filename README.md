@@ -1,5 +1,5 @@
 # scala-hello
-hello world on scala
+hello world on scala with sbt
 
 ##### How run:
 
