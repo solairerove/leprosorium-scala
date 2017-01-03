@@ -1,4 +1,4 @@
-package com.github.solairerove.scala.level;
+package com.github.solairerove.scala.chapter1.level;
 
 public class UpperCaseUtil {
 

@@ -1,5 +1,4 @@
-# scala-hello
-hello world on scala with sbt
+# programming-in-scala
 
 ##### How run:
 

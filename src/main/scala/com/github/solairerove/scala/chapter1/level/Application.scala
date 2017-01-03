@@ -1,8 +1,8 @@
-package com.github.solairerove.scala.level
+package com.github.solairerove.scala.chapter1.level
 
 object Application {
   def main(args: Array[String]): Unit = {
-    val name = "Some string"
+    val name: String = "Some string"
 
     val nameHasUpperCase = name.exists(_.isUpper)
     println(nameHasUpperCase)
