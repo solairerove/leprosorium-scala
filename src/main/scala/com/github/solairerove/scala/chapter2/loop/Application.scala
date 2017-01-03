@@ -1,5 +1,7 @@
 package com.github.solairerove.scala.chapter2.loop
 
+import com.github.solairerove.scala.chapter2.loop.PrintArrayUtil.{printArray, printArrayWithLambda}
+
 object Application {
   def main(args: Array[String]): Unit = {
     val array: Array[String] = Array("Some", "cool", "string", "lol", "!11")
@@ -15,6 +17,12 @@ object Application {
 
     println("\n" + "Fore expression: ")
     writeArrayWithForeExpression(array)
+
+    println("\n" + "Java based: ")
+    printArray()
+
+    println("\n" + "Java lambda based: ")
+    printArrayWithLambda()
   }
 
   def writeArrayWithWhile(array: Array[String]): Unit = {
