@@ -1,5 +1,8 @@
-# programming-in-scala
+# leprosorium-scala
 
 ##### How run:
 
-* `sbt compile; run`
+* `sbt compile`
+* `sbt test`
+* `sbt run`
+* `sbt package`
