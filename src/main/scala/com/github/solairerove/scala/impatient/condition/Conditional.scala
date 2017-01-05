@@ -1,4 +1,4 @@
-package com.github.solairerove.scala.impatient.function
+package com.github.solairerove.scala.impatient.condition
 
 object Conditional {
   def main(args: Array[String]): Unit = {
