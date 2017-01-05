@@ -1,6 +1,6 @@
-package com.github.solairerove.scala.chapter2.loop
+package com.github.solairerove.scala.programming.chapter2.loop
 
-import com.github.solairerove.scala.chapter2.loop.PrintArrayUtil.{printArray, printArrayWithLambda}
+import com.github.solairerove.scala.programming.chapter2.loop.PrintArrayUtil.{printArray, printArrayWithLambda}
 
 object Application {
   def main(args: Array[String]): Unit = {

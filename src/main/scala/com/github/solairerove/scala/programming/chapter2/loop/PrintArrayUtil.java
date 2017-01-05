@@ -1,4 +1,4 @@
-package com.github.solairerove.scala.chapter2.loop;
+package com.github.solairerove.scala.programming.chapter2.loop;
 
 import java.util.Arrays;
 import java.util.Collections;

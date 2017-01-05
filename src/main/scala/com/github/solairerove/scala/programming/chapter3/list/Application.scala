@@ -1,4 +1,4 @@
-package com.github.solairerove.scala.chapter3.list
+package com.github.solairerove.scala.programming.chapter3.list
 
 object Application {
   def main(args: Array[String]): Unit = {

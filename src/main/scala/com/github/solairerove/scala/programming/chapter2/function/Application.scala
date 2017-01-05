@@ -1,4 +1,4 @@
-package com.github.solairerove.scala.chapter2.function
+package com.github.solairerove.scala.programming.chapter2.function
 
 object Application {
   def main(args: Array[String]): Unit = {
