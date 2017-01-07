@@ -12,7 +12,8 @@ public class PrintArrayUtil {
                     "Groovy",
                     "String",
                     "Ever"
-            ));
+            )
+    );
 
     public static void printArray() {
         for (String s : strings) {
