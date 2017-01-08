@@ -1,4 +1,4 @@
-name := "leprosorium"
+name := "scala-leprosorium"
 
 version := "0.0.1"
 
