@@ -1,11 +1,8 @@
-organization := "com.github.solairerove"
-
 name := "scala-leprosorium"
-
+organization := "com.github.solairerove"
 version := "0.0.1"
 
 scalaVersion := "2.12.1"
-
 scalacOptions := Seq("-unchecked", "-deprecation", "-encoding", "utf8")
 
 libraryDependencies ++= {
@@ -17,3 +14,6 @@ libraryDependencies ++= {
     "com.typesafe.akka" %% "akka-http" % akkaHttpV
   )
 }
+
+Revolver.settings
+enablePlugins(JavaAppPackaging)
