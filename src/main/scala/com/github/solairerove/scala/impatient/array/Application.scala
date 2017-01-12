@@ -1,6 +1,7 @@
 package com.github.solairerove.scala.impatient.array
 
 import scala.collection.mutable.ArrayBuffer
+import scala.util.Random
 
 object Application {
   def main(args: Array[String]): Unit = {
@@ -9,6 +10,8 @@ object Application {
     traversingArray()
     transformArray()
     commonAlgorithms()
+    randomArray(5)
+    adjacentTransform()
   }
 
   def fixedArray(): Unit = {
@@ -74,5 +77,23 @@ object Application {
     println()
     println(a.mkString(" and "))
     println(a.mkString("<", ",", ">"))
+  }
+
+  def randomArray(n: Int): Unit = {
+    val array = new Array[Int](n)
+    for (i <- array.indices) array(i) = Random.nextInt(n)
+    println("Random array: " + array.mkString("<", ",", ">"))
+  }
+
+  def adjacentTransform(): Unit = {
+    val array = Array(1, 2, 3, 4, 5)
+
+    val result = for (i <- array.indices)
+      yield if (i % 2 == 0)
+        if (i < array.length - 1) array(i + 1) else array(i)
+      else
+        array(i - 1)
+
+    println("Adjacent: " + result)
   }
 }
