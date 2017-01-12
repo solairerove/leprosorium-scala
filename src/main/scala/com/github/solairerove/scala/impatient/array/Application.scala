@@ -12,6 +12,7 @@ object Application {
     commonAlgorithms()
     randomArray(5)
     adjacentTransform()
+    positiveNegative()
   }
 
   def fixedArray(): Unit = {
@@ -80,7 +81,7 @@ object Application {
   }
 
   def randomArray(n: Int): Unit = {
-    val array = new Array[Int](n)
+    val array = Array[Int](n)
     for (i <- array.indices) array(i) = Random.nextInt(n)
     println("Random array: " + array.mkString("<", ",", ">"))
   }
@@ -95,5 +96,14 @@ object Application {
         array(i - 1)
 
     println("Adjacent: " + result)
+  }
+
+  def positiveNegative(): Unit = {
+    val array = Array(10, 7, -5, 11, -44, 0, 22, -22, -100, 77, -5)
+    val result = array.filter(_ > 0) ++ array.filter(_ <= 0)
+
+    print("Positive negative: ")
+    for (el <- result) print(el + " ")
+    println()
   }
 }
