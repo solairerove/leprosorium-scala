@@ -13,6 +13,10 @@ object Application {
     randomArray(5)
     adjacentTransform()
     positiveNegative()
+    println("Scala")
+    piMonteCarlo()
+    println("Java")
+    MonteCarlo.main()
   }
 
   def fixedArray(): Unit = {
@@ -105,5 +109,10 @@ object Application {
     print("Positive negative: ")
     for (el <- result) print(el + " ")
     println()
+  }
+
+  def piMonteCarlo(): Unit = {
+    def r = math.random()
+    println(Seq.fill(100000)(r, r).count{case (a, b) => a * a + b * b < 1} / 250d)
   }
 }
