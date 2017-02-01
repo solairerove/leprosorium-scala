@@ -10,6 +10,6 @@ object MontyPython {
 
   def piMonteCarlo(): Unit = {
     def r = math.random()
-    println(Seq.fill(100000)(r, r).count{case (a, b) => a * a + b * b < 1} / 250d)
+    println(Seq.fill(1000)(r, r).count{case (a, b) => a * a + b * b < 1} / 250d)
   }
 }
