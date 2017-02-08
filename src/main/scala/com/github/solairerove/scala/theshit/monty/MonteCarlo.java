@@ -1,4 +1,4 @@
-package com.github.solairerove.scala.theshit;
+package com.github.solairerove.scala.theshit.monty;
 
 import java.util.stream.DoubleStream;
 import java.util.stream.IntStream;

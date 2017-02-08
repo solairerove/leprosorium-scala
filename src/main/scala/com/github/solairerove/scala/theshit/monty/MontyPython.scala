@@ -1,4 +1,4 @@
-package com.github.solairerove.scala.theshit
+package com.github.solairerove.scala.theshit.monty
 
 object MontyPython {
   def main(args: Array[String]): Unit = {
